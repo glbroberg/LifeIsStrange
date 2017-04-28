@@ -75,10 +75,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\junkyard.jpg" />
+    <Content Include="images\max7.png" />
+    <Content Include="images\maxresdefault.jpg" />
+    <Content Include="images\maxresdefault3.jpg" />
+    <Content Include="images\rsz_transparentlogo.png" />
+    <Content Include="index.html" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="content\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
